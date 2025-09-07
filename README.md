@@ -1,34 +1,24 @@
-<div align="center">
-<a href="https://stellar.org"><img alt="Stellar" src="https://github.com/stellar/.github/raw/master/stellar-logo.png" width="558" /></a>
-<br/>
-<strong>Creating equitable access to the global financial system</strong>
-<h1>Stellar Core</h1>
-</div>
-<p align="center">
-<a href="https://github.com/stellar/stellar-core/actions"><img alt="Build Status" src="https://github.com/stellar/stellar-core/workflows/.github/workflows/build.yml/badge.svg?branch=auto" /></a>
-</p>
+# DefaultCoin Core
 
-Stellar-core is a replicated state machine that maintains a local copy of a cryptographic ledger and processes transactions against it, in consensus with a set of peers.
-It implements the [Stellar Consensus Protocol](https://github.com/stellar/stellar-core/blob/master/src/scp/readme.md), a _federated_ consensus protocol.
-It is written in C++17 and runs on Linux, OSX and Windows.
-Learn more by reading the [overview document](https://github.com/stellar/stellar-core/blob/master/docs/readme.md).
+DefaultCoin é um projeto de pesquisa em desenvolvimento, baseado no código aberto do [Stellar Core](https://github.com/stellar/stellar-core).  
+O objetivo é explorar a criação de uma criptomoeda com suprimento fixo e suporte a APIs para integração em aplicações diversas.
 
-# Documentation
+## Sobre
 
-Documentation of the code's layout and abstractions, as well as for the
-functionality available, can be found in
-[`./docs`](https://github.com/stellar/stellar-core/tree/master/docs).
+Este repositório contém a base técnica para o **DefaultCoin**, um fork de estudo e pesquisa.  
+Apesar de usar o Stellar como fundação, o projeto seguirá suas próprias customizações e objetivos.
 
-# Installation
+## Status
 
-See [Installation](./INSTALL.md)
+🚧 Em desenvolvimento.  
+Atualmente, este repositório está em fase de configuração inicial e customização.
 
-# Contributing
+## Aviso
 
-See [Contributing](./CONTRIBUTING.md)
+Este projeto não é afiliado nem endossado pela Stellar Development Foundation.  
+Todo o crédito pelo código original vai para o time do Stellar.
 
-# Running tests
+## Licença
 
-See [running tests](./CONTRIBUTING.md#running-tests)
-
-[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/stellar/stellar-core)
+O código original da Stellar é distribuído sob a licença [Apache 2.0](https://www.apache.org/licenses/LICENSE-2.0).  
+As modificações feitas para o DefaultCoin seguem a mesma licença.
